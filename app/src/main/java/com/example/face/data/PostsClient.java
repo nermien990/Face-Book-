@@ -19,7 +19,6 @@ public class PostsClient {
     private static PostsClient INSTANCE;
 
     public PostsClient() {
-
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
