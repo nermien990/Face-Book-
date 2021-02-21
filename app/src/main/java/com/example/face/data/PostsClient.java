@@ -36,6 +36,7 @@ public class PostsClient {
         }
         return INSTANCE;
     }
+
     public Single<List<PostModel>> getposts()
     {
        return postInterface.getPosts();
