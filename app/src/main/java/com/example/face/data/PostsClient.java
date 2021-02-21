@@ -27,7 +27,6 @@ public class PostsClient {
                 .build();
 
         postInterface = retrofit.create(PostInterface.class);
-
     }
 
     public static PostsClient getINSTANCE() {
